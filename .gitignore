@@ -1,0 +1,42 @@
+# Ignore virtual environment
+.venv/
+env/
+venv/
+
+# Ignore Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Ignore Jupyter/IPython notebooks checkpoints
+.ipynb_checkpoints/
+
+# Ignore video files and folders
+*.mp4
+videos/
+
+# Ignore model weights and checkpoints
+*.pt
+*.pth
+Yolo-weights/
+Project-2/ppe.pt
+
+# Ignore specific folders
+Chapter 5-Running yolo*/
+Chapter6 - yolo with webcam*/
+
+# Ignore main file
+main.py
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore PyCharm settings (optional)
+.idea/
+
+# Ignore logs or temp files
+*.log
+
+# Ignore compiled shared objects
+*.so
